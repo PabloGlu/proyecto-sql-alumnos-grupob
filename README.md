@@ -1,5 +1,7 @@
 # 📊 Proyecto de Base de Datos Relacional – Bootcamp
 
+### 🎓 Proyecto grupal – Bootcamp Data Science & Full Stack
+
 ![Imagen principal](./assets/pgadmin.png)
 
 ## 🧠 Descripción del Proyecto
@@ -25,7 +27,7 @@ Proyecto desarrollado por:
 - Nadia Llamoca  
 - Pablo da Cunha  
 
-📅 Fecha: Abril 2026v
+📅 Fecha: Abril 2026
 ---
 
 ## 🏗️ Estructura del Proyecto
