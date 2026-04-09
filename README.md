@@ -88,6 +88,11 @@ Proyecto desarrollado por:
 ## 🗃️ Modelo Lógico
 
 ![Modelo lógico](./assets/entidad_relacion.png)
+
+### 🔗 Visualización en pgAdmin
+
+![Relaciones en pgAdmin](./assets/erd_pgadmin.png)
+
 El modelo lógico se ha construido a partir del diseño E/R, definiendo:
 
 * Tablas normalizadas
