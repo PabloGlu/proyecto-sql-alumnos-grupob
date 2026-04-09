@@ -15,6 +15,18 @@ El objetivo es aplicar conceptos clave como:
 * Consultas SQL para explotación de datos
 
 ---
+## 👥 Equipo
+
+Proyecto desarrollado por:
+
+- James  
+- Karina Rojas  
+- Marco Guevara  
+- Nadia Llamoca  
+- Pablo da Cunha  
+
+📅 Fecha: Abril 2026v
+---
 
 ## 🏗️ Estructura del Proyecto
 
@@ -22,12 +34,46 @@ El objetivo es aplicar conceptos clave como:
 📁 root
  ├── README.md
  └── queries.sql
- └──assets
-     └──pgadming.png
+ └──assets/
+     ├── pgadming.png
+     ├── er-diagram.png
+     └── entidad_relacion.png
 ```
 
 * **README.md** → Documentación del proyecto
 * **queries.sql** → Scripts de creación, inserción y consultas
+
+---
+## 🧩 Diseño del Sistema
+
+### 📌 Entidades principales
+
+* alumnos
+* profesores
+* promociones
+* proyectos
+* campus
+* vertical
+* modalidad
+* rol
+
+---
+### 🔗 Relaciones principales
+
+- Un alumno pertenece a una promoción
+- Una promoción pertenece a un campus, vertical y modalidad
+- Un profesor puede impartir varias promociones (N:M)
+- Los alumnos realizan proyectos evaluables (N:M)
+- Las calificaciones se registran por alumno y proyecto
+
+---
+## 📐 Reglas de negocio
+
+- Un alumno solo puede pertenecer a una promoción
+- Cada promoción pertenece a un único campus, vertical y modalidad
+- El rol del profesor depende de la promoción (no es fijo)
+- Las calificaciones se registran por alumno y proyecto
+- Las relaciones N:M se resuelven mediante tablas intermedias
 
 ---
 
@@ -47,13 +93,6 @@ El modelo lógico se ha construido a partir del diseño E/R, definiendo:
 * Claves foráneas (FK)
 * Relaciones entre entidades
 
-### Entidades principales:
-
-* `alumnos`
-* `promoción`
-* `campus`
-* `proyecto`
-
 ---
 
 ## 🔄 Normalización
@@ -63,6 +102,7 @@ Se ha aplicado hasta **3ª Forma Normal (3NF)** para:
 * Eliminar redundancias
 * Garantizar integridad referencial
 * Mejorar escalabilidad
+* Separación correcta de entidades y relaciones  
 
 ---
 
