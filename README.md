@@ -124,11 +124,10 @@ Proyecto realizado por un equipo mixto de:
 
 ## ⚖️ Licencia y Derechos de Autor
 
-© 2026 – Proyecto académico realizado por el equipo.
+Este proyecto ha sido desarrollado con fines educativos por estudiantes.
 
-Este repositorio es de uso educativo. No está permitido:
+Se distribuye bajo la licencia MIT, lo que permite su uso, copia, modificación y distribución, siempre que se incluya la atribución correspondiente a los autores.
 
-* Uso comercial sin autorización
-* Redistribución sin atribución
+© 2026 – Karina Rojas, Marco Guevara, Pablo da Cunha, Nadia Llamoca, James Guarnizo
 
 ---
