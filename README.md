@@ -135,6 +135,17 @@ El diseño permite crecimiento en:
 
 ---
 
+## Conexión a la base de datos desde pgAdmin 4
+
+**Para conectarse desde pgAdmin local a la BD PostgreSQL en Render:**
+
+1. En Render Dashboard → tu base de datos → **Info** → **External Database URL**  
+   Copia la URL completa: `postgres://usuario:password@host:puerto/nombre_bd`
+
+2. En pgAdmin → Clic derecho **Servers** → **Register** → **Server**
+
+3. **Pestaña Connection**:
+
 ## Ejemplos de Consultas
 
 Algunas queries incluidas:
