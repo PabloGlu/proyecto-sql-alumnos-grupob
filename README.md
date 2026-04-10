@@ -1,10 +1,10 @@
-# 📊 Proyecto de Base de Datos Relacional – Bootcamp
+# Proyecto de Base de Datos Relacional – Bootcamp
 
-### 🎓 Proyecto grupal – Bootcamp Data Science & Full Stack
+### Proyecto grupal – Bootcamp Data Science & Full Stack
 
 ![Imagen principal](./assets/pgadmin.png)
 
-## 🧠 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en el diseño e implementación de una **base de datos relacional normalizada** a partir de datos no estructurados de estudiantes y profesores de un bootcamp.
 
@@ -17,7 +17,8 @@ El objetivo es aplicar conceptos clave como:
 * Consultas SQL para explotación de datos
 
 ---
-## 👥 Equipo
+
+## Equipo
 
 Proyecto desarrollado por:
 
@@ -27,28 +28,22 @@ Proyecto desarrollado por:
 - Nadia Llamoca  
 - Pablo da Cunha  
 
-📅 Fecha: Abril 2026
+Fecha: Abril 2026
+
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
-```
-📁 root
- ├── README.md
- └── queries.sql
- └──assets/
-     ├── pgadming.png
-     ├── er-diagram.png
-     └── entidad_relacion.png
-```
+
 
 * **README.md** → Documentación del proyecto
 * **queries.sql** → Scripts de creación, inserción y consultas
 
 ---
-## 🧩 Diseño del Sistema
 
-### 📌 Entidades principales
+## Diseño del Sistema
+
+### Entidades principales
 
 * alumnos
 * profesores
@@ -60,7 +55,8 @@ Proyecto desarrollado por:
 * rol
 
 ---
-### 🔗 Relaciones principales
+
+### Relaciones principales
 
 - Un alumno pertenece a una promoción
 - Una promoción pertenece a un campus, vertical y modalidad
@@ -69,7 +65,8 @@ Proyecto desarrollado por:
 - Las calificaciones se registran por alumno y proyecto
 
 ---
-## 📐 Reglas de negocio
+
+## Reglas de negocio
 
 - Un alumno solo puede pertenecer a una promoción
 - Cada promoción pertenece a un único campus, vertical y modalidad
@@ -79,17 +76,17 @@ Proyecto desarrollado por:
 
 ---
 
-## 🧩 Modelo Entidad-Relación y normalización
+## Modelo Entidad-Relación y normalización
 
 ![Diagrama ER](./assets/er-diagram.png)
 
 ---
 
-## 🗃️ Modelo Lógico
+## Modelo Lógico
 
 ![Modelo lógico](./assets/entidad_relacion.png)
 
-### 🔗 Visualización en pgAdmin
+### Visualización en pgAdmin
 
 ![Relaciones en pgAdmin](./assets/erd_pgadmin.png)
 
@@ -102,7 +99,7 @@ El modelo lógico se ha construido a partir del diseño E/R, definiendo:
 
 ---
 
-## 🔄 Normalización
+## Normalización
 
 Se ha aplicado hasta **3ª Forma Normal (3NF)** para:
 
@@ -113,7 +110,7 @@ Se ha aplicado hasta **3ª Forma Normal (3NF)** para:
 
 ---
 
-## 🐘 Implementación en PostgreSQL
+## Implementación en PostgreSQL
 
 La base de datos ha sido implementada en PostgreSQL incluyendo:
 
@@ -121,27 +118,24 @@ La base de datos ha sido implementada en PostgreSQL incluyendo:
 * Inserción de datos (`INSERT`)
 * Consultas (`SELECT`)
 
-📄 Todo el código SQL se encuentra en:
-
-```
-queries.sql
-```
+Todo el código SQL se encuentra en:
+`queries.sql`
 
 ---
 
-## 🚀 Escalabilidad
+## Escalabilidad
 
 El diseño permite crecimiento en:
 
-* 📍 Campus (Madrid, Valencia, etc.)
-* 🎓 Promociones (Septiembre, Febrero...)
-* 🧑‍💻 Verticales (Data Science, Full Stack...)
-* 🏫 Modalidades (Online, Presencial)
-* 📚 Nuevos proyectos y evaluaciones
+* Campus (Madrid, Valencia, etc.)
+* Promociones (Septiembre, Febrero...)
+* Verticales (Data Science, Full Stack...)
+* Modalidades (Online, Presencial)
+* Nuevos proyectos y evaluaciones
 
 ---
 
-## 🔍 Ejemplos de Consultas
+## Ejemplos de Consultas
 
 Algunas queries incluidas:
 
@@ -160,16 +154,16 @@ GROUP BY campus;
 
 ---
 
-## 👥 Equipo
+## Equipo
 
 Proyecto realizado por un equipo mixto de:
 
-* 💻 Full Stack Developers
-* 📊 Data Scientists
+* Full Stack Developers
+* Data Scientists
 
 ---
 
-## ⚖️ Licencia y Derechos de Autor
+## Licencia y Derechos de Autor
 
 Este proyecto ha sido desarrollado con fines educativos por estudiantes.
 
@@ -178,3 +172,5 @@ Se distribuye bajo la licencia MIT, lo que permite su uso, copia, modificación 
 © 2026 – Karina Rojas, Marco Guevara, Pablo da Cunha, Nadia Llamoca, James Guarnizo
 
 ---
+
+<!-- Basado en principios estándar de diseño conceptual y lógico de bases de datos relacionales.[web:17] -->
